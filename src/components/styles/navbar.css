@@ -1,0 +1,71 @@
+.themeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.themeWrapper button {
+  position: fixed;
+  top: 0.8rem;
+  z-index: 999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: none;
+  right: 420px;
+  background: none;
+  padding: 0px 7px;
+}
+@media screen and (max-width: 991px) {
+  .themeWrapper button {
+    right: 80px;
+  }
+}
+nav {
+  background-color: #080b13;
+}
+nav ul li {
+  margin-right: 20px;
+  padding: 0px 7px;
+}
+nav ul li a {
+  color: rgb(182, 178, 178) !important;
+}
+
+.fa-sun {
+  color: #d1c382;
+}
+.fa-moon {
+  color: white;
+}
+.themeWrapper button i {
+  font-size: 18px;
+}
+.navbar-brand {
+  font-size: 22px;
+  color: #cad9e5 !important;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  width: 30px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul li:hover {
+  background-color: #1f2937ef;
+  border-radius: 5px;
+}
+
+ul li a {
+  color: #cad9e5 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(190, 228, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
